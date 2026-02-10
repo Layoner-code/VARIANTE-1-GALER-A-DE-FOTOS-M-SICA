@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Para Ti ❤️</title>
+  <title>Regalo Especial 💖</title>
   <style>
     body {
       margin: 0;
@@ -12,9 +12,11 @@
       text-align: center;
       padding: 50px 20px;
     }
-    h1 { font-size: 2.5em; }
-    h2 { font-size: 1.8em; }
-    p { font-size: 1.2em; max-width: 500px; margin: 20px auto; }
+
+    h1 { font-size: 2.5em; margin-bottom: 10px; }
+    h2 { font-size: 1.8em; margin-bottom: 20px; }
+    p { font-size: 1.2em; max-width: 500px; margin: 20px auto; line-height: 1.5; }
+
     .play-btn {
       background: white;
       color: #ff4e50;
@@ -25,6 +27,7 @@
       cursor: pointer;
       margin: 20px 0;
     }
+
     .galeria {
       display: flex;
       justify-content: center;
@@ -32,11 +35,13 @@
       flex-wrap: wrap;
       margin-top: 20px;
     }
+
     .galeria img {
       width: 120px;
       height: 160px;
       object-fit: cover;
       border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.3);
     }
   </style>
 </head>
@@ -47,16 +52,17 @@
 <h2>Juan & María</h2>
 
 <p>
-  Gracias por cada momento juntos.  
-  Este es solo un pequeño detalle para recordarte cuánto te amo.
+  Desde que llegaste a mi vida, todo cambió.  
+  Gracias por cada momento, cada sonrisa y cada abrazo.  
+  Te amo hoy y siempre.
 </p>
 
 <button class="play-btn" onclick="playMusic()">▶ Escuchar música</button>
 
 <div class="galeria">
-  <img src="foto1.jpg">
-  <img src="foto2.jpg">
-  <img src="foto3.jpg">
+  <img src="foto1.jpg" alt="Foto 1">
+  <img src="foto2.jpg" alt="Foto 2">
+  <img src="foto3.jpg" alt="Foto 3">
 </div>
 
 <audio id="audio" src="musica.mp3"></audio>
